@@ -362,6 +362,89 @@ def pag2():
             ✅ *Máquina com desempenho sólido para operação contínua do sistema PDV e multitarefa moderada.*
 
             """)
+
+    with st.expander("📍 Sushi Bar / Pizzaria"):
+        st.image("images/tanca_tpg650_sushi.jpeg", caption="Impressora térmica Tanca TPG-650 instalada no Sushi Bar / Pizzaria", width=300)
+        st.markdown("""
+        - Modelo: **Tanca TPG-650**  
+        - Tipo: **Impressora térmica para comandas**  
+        - Interface: **USB / Serial / Ethernet (conforme versão)**  
+        - Largura do papel: **80 mm**  
+        - Velocidade de impressão: **até 250 mm/s**  
+        - Aplicação: **Impressão de pedidos enviados pelo sistema PDV Desbravador**  
+        - Local: **Balcão do Sushi Bar / Pizzaria**
+
+        ✅ Equipamento robusto, com boa performance mesmo em horários de pico, essencial para agilidade no atendimento do bar.
+                    
+        """)
+
+        st.text("")
+
+
+        st.image("images/computador_sushi_bar.jpeg", caption="Notebook Acer utilizado no Sushi Bar / Pizzaria com sistema Desbravador", width=300)
+        st.image("images/configuracoes_pc_sushibar.jpeg", caption="Configurações do notebook (DxDiag - Windows 11)", width=300)
+        st.markdown("""
+        - Equipamento: **Notebook Acer Aspire A315-510P**  
+        - Nome do dispositivo: **KLM-REST02**  
+        - Sistema operacional: **Windows 11 Home Single Language 64 bits**  
+        - Processador: **Intel Core i3-N305 (8 núcleos) @ 1.8GHz**  
+        - Memória RAM: **8 GB**  
+        - Utilização: **Sistema Desbravador para envio de pedidos ao setor de cozinha e controle de mesas**  
+        - Local: **Balcão de atendimento do Sushi Bar / Pizzaria**
+
+        ✅ *Máquina atualizada, com bom desempenho para uso contínuo em atendimento, mesmo em picos de movimento.*
+
+        """)
+
+        st.text("")
+
+
+        st.image("images/conversor_pizza_sushi.jpeg", caption="Conversor de mídia Exbom CFO-NK1000 instalado no Sushi Bar / Pizzaria", width=300)
+        st.markdown("""
+        - Equipamento: **Conversor de Mídia Ethernet para Fibra Óptica**  
+        - Modelo: **Exbom CFO-NK1000**  
+        - Interfaces:  
+            - **1x Porta RJ45 10/100/1000 Mbps (Ethernet)**  
+            - **1x Porta SC/UPC para fibra monomodo (TX/RX)**  
+        - Protocolo: **IEEE 802.3u/ab**  
+        - Distância suportada: **até 20 km via fibra monomodo**  
+        - Local: **Fixado em parede no setor do Sushi Bar / Pizzaria**
+
+        ✅ *Permite a extensão da rede principal até a pizzaria via fibra óptica, com performance confiável.*
+
+        """)
+
+        st.text("")
+
+        st.image("images/roteador_intelbras_pizzasushi.jpeg", caption="Roteador Intelbras instalado no setor Sushi Bar / Pizzaria", width=300)
+        st.markdown("""
+        - Equipamento: **Roteador sem fio Intelbras**  
+        - Frequência: **Provavelmente Dual Band (2.4GHz / 5GHz)**  
+        - Antenas: **4 antenas externas fixas**  
+        - Aplicação: **Distribuição local de Wi-Fi para dispositivos internos**  
+        - Alimentação: **Fonte padrão 12V**  
+        - Conectado via cabo ao **conversor de fibra óptica** local  
+        - Local: **Instalado em altura elevada sobre viga metálica**
+
+        ✅ *Fornece conectividade local para PDVs, impressoras e eventuais dispositivos móveis no ambiente do Sushi Bar.*
+
+        ⚠️ *Não gerenciado centralmente via controladora. Recomendado upgrade para Access Point Unifi caso deseje padronização e gerenciamento integrado da rede.*
+        """)
+
+        st.image("images/tanca_tp650_pizzaria.jpeg", caption="Impressora térmica Tanca TP-650 utilizada na área de preparo da pizzaria", width=300)
+        st.markdown("""
+        - Modelo: **Tanca TP-650**  
+        - Tipo: **Impressora térmica para comandas de cozinha**  
+        - Interface: **USB / Serial / Ethernet (dependendo da configuração)**  
+        - Largura do papel: **80 mm**  
+        - Velocidade de impressão: **até 250 mm/s**  
+        - Local: **Balcão de preparo da pizzaria**
+
+        ✅ *Equipamento essencial para recebimento ágil de pedidos do sistema PDV Desbravador, otimizando o tempo de preparo.*
+
+        ⚠️ *Apresenta sinais visíveis de acúmulo de gordura e poeira. Recomendado processo de higienização periódica para evitar travamentos e falhas de impressão.*
+        """)
+
 st.sidebar.title("📌 Menu")
 pagina = st.sidebar.radio("Navegue entre as seções:", ["Análise de Rede", "Equipamentos"])
 
